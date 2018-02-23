@@ -10,7 +10,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b4ffff;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #80d6ff;">
@@ -52,7 +51,7 @@
             <Image url="@../image/keylock.png" />
          </image>
       </ImageView>
-      <JFXButton fx:id="btnLogin" layoutX="434.0" layoutY="171.0" prefHeight="29.0" prefWidth="114.0" style="-fx-background-color: #63a4ff;" text="Login" textFill="#1e1c1c">
+      <JFXButton fx:id="btnlogin" layoutX="434.0" layoutY="171.0" onAction="#Login" prefHeight="29.0" prefWidth="114.0" style="-fx-background-color: #63a4ff;" text="Login" textFill="#1e1c1c">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
