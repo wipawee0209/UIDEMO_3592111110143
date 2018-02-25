@@ -192,5 +192,22 @@ public class adminController implements Initializable{
         loadStudentData(new ActionEvent());
 
     }//deleteStudent
+@FXML
+    private void editStudent (ActionEvent event){
+        StudentData std = studentTable.getSelectionModel().getSelectedItem();
+        if (std != null){
+            txtID.setText(std.getId());
+            //disable txtfiled to read only อ่านอย่างเดียวไม่ให้แก้ไข
+            txtID.setDisable(true);
+            txtFristName.setText(std.getFirstName());
+            txtLastName.setText(std.getLastName());
+            txtEmail.setText(std.getEmail());
+            txtDOB.getEditor().setText(std.getDOB());
+        }else {
+            System.exit(1);
+        }
+
+    }//editStudent
+
 
 }//class
