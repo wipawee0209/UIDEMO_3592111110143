@@ -46,7 +46,7 @@
             <Image url="@../image/user.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="44.0" fitWidth="48.0" layoutX="335.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="44.0" fitWidth="48.0" layoutX="333.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../image/keylock.png" />
          </image>
