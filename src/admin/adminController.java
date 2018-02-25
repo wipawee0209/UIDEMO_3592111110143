@@ -212,7 +212,7 @@ public class adminController implements Initializable{
     private void saveStudent(ActionEvent event){
         StudentData std = studentTable.getSelectionModel().getSelectedItem();
         //DialogMessage คำเตือนต้องการลบหรื่อไม่
-        JOptionPane.showConfirmDialog(null,"Do you want to update student name: "
+        JOptionPane.showConfirmDialog(null,"Do you want to update student ID: "
                 +std.getId());
         String sqlUpdate = "update student set firstName =?,"+"lastName =?,email =?,DOB =? where ID =?";
         try {
