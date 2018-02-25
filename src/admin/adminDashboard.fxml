@@ -74,7 +74,7 @@
                            </font>
                         </JFXButton>
                         <JFXButton fx:id="btnAdd" layoutX="12.0" layoutY="268.0" onAction="#addStudent" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: #00cc66;" text="Add Data" />
-                        <JFXButton fx:id="btnSave" layoutX="12.0" layoutY="300.0" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: #3399ff;" text="Save">
+                        <JFXButton fx:id="btnSave" layoutX="12.0" layoutY="300.0" onAction="#saveStudent" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: #3399ff;" text="Save">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
